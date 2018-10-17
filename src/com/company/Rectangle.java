@@ -1,8 +1,11 @@
 package com.company;
 
-public class Rectangle {
+public class Rectangle
+{
     private int height;
     private int width;
-    public Rectangle(height, width);
+    public Rectangle(height, width)
+    Rectangle.getArea()
+    Rectangle.getPerimeter()
 
 }
