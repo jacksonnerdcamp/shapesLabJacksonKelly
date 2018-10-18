@@ -1,6 +1,4 @@
 package com.company;
-
-
 public class Circle extends Shape {
 
     ///fields///
@@ -13,15 +11,15 @@ public class Circle extends Shape {
     }
 
     ///methods///
-    public int getArea(int radius)
+    public double getArea()
     {
-        int area = (int) (3.14*radius*radius);
+        double area = (3.14*radius*radius);
         return area;
     }
 
-    public int getPerimeter(int radius)
+    public double getPerimeter()
     {
-        int perimeter = (int) (3.14*2*radius);
+        double perimeter = (3.14*2*radius);
         return perimeter;
     }
 }
