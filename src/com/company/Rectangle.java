@@ -1,6 +1,6 @@
 package com.company;
 
-public class Rectangle
+public class Rectangle extends Shape
 {
     //fields
     private int height;
@@ -12,12 +12,12 @@ public class Rectangle
         this.height = height;
     }
     //methods
-    public double getArea(width, height)
+    public double getArea(int width, int height)
     {
         int area = width * height;
         return area;
     }
-    public double getPerimeter(width, height)
+    public double getPerimeter(int width, int height)
     {
         int perimeter = 2 * width + 2 * height;
         return perimeter;
