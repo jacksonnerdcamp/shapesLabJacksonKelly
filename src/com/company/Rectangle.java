@@ -8,16 +8,19 @@ public class Rectangle extends Shape
     //constructors
     public Rectangle(int width, int height)
     {
+        super("Rectangle");
         this.width = width;
         this.height = height;
     }
     //methods
-    public double getArea(int width, int height)
+    @Override
+    public double getArea()
     {
         int area = width * height;
         return area;
     }
-    public double getPerimeter(int width, int height)
+    @Override
+    public double getPerimeter()
     {
         int perimeter = 2 * width + 2 * height;
         return perimeter;
